@@ -1,0 +1,31 @@
+# Site settings
+title: Hilton Bristow
+description: Computer vision engineer developing perception algorithms for autonomous vehicles.
+url: "http://hilton.bristow.io"
+
+# Social
+email: hilton.bristow@gmail.com
+facebook:  hilton.bristow
+github: hbristow
+
+# Logo
+logo: "/media/logo.png"
+
+# Navigation
+navigation:
+    -   title: Code
+        href: "https://github.com/hbristow"
+
+# Build settings
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - "no_intra_emphasis"
+    - "fenced_code_blocks"
+    - "autolink"
+    - "tables"
+    - "with_toc_data"
+
+# Google Analytics
+google_analytics: "UA-29575517-1"
